@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier
+_commit: v1.3.4
+_src_path: gh:lincc-frameworks/python-project-template
+author_email: michael.cretignier@unige.ch
+author_name: Michael Cretignier
+create_example_module: true
+custom_install: true
+include_notebooks: true
+mypy_type_checking: none
+package_name: rassine
+preferred_linter: pylint
+project_license: MIT
+project_name: rassine
+use_gitlfs: disabled
+use_isort: true
