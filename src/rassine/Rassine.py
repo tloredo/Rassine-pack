@@ -38,20 +38,14 @@ from scipy.optimize import curve_fit
 from scipy.special import erf
 
 import rasfunctions as ras
+from config import config
+
 
 warnings.filterwarnings('ignore', category=RuntimeWarning)
 
-#get_ipython().run_line_magic('matplotlib','qt5')
-
 python_version = sys.version[0]
-config = {}
 
-# =============================================================================
-#  IMPORT CONFIG FILE
-# =============================================================================
-
-exec(open('config.py').read())
-
+# Copy config params into the local namespace (some renamed).
 spectrum_name = config['spectrum_name']
 output_dir = config['output_dir']
 synthetic_spectrum = config['synthetic_spectrum']  
@@ -75,7 +69,7 @@ par_reg_nu = config['model_penality_radius']
 denoising_dist = config['denoising_dist']      
 count_cut_lim = config['number_of_cut']     
 count_out_lim = config['number_of_cut_outliers']   
-   
+
 interpol = config['interpol']          
 feedback = config['feedback']             
 only_print_end = config['only_print_end'] 
