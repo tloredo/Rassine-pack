@@ -16,6 +16,7 @@ import os
 import pickle
 import platform
 import sys
+import warnings
 
 #from tqdm import tqdm 
 import time
@@ -31,7 +32,7 @@ from scipy.interpolate import interp1d
 from scipy.signal import savgol_filter
 from scipy.stats import norm
 
-np.warnings.filterwarnings('ignore', category=RuntimeWarning)
+warnings.filterwarnings('ignore', category=RuntimeWarning)
 
 
 py_ver = platform.python_version_tuple()

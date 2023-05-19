@@ -25,6 +25,7 @@ import getopt
 import os
 import sys
 import time
+import warnings
 
 import matplotlib.pylab as plt
 import numpy as np
@@ -38,7 +39,7 @@ from scipy.special import erf
 
 import Rassine_functions as ras
 
-np.warnings.filterwarnings('ignore', category=RuntimeWarning)
+warnings.filterwarnings('ignore', category=RuntimeWarning)
 
 #get_ipython().run_line_magic('matplotlib','qt5')
 
