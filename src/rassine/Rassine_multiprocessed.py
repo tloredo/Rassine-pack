@@ -17,7 +17,7 @@ import threading
 import numpy as np
 import pandas as pd
 
-from Rassine_functions import (
+from rasfunctions import (
     intersect_all_continuum,
     make_sound,
     matching_diff_continuum,
