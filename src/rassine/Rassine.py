@@ -18,8 +18,6 @@ Created on Thu Feb  7 16:34:29 2019
 
 """
 
-from __future__ import print_function
-
 import matplotlib
 
 matplotlib.use('Qt5Agg',force=True)

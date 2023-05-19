@@ -6,8 +6,6 @@ Created on Fri May 17 10:41:21 2019
 @author: cretignier
 """
 
-from __future__ import print_function
-
 import getopt
 import glob as glob
 import multiprocessing as multicpu

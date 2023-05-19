@@ -6,7 +6,6 @@ Created on Fri Nov 22 11:50:04 2019
 @author: cretignier
 """
 
-from __future__ import print_function
 import matplotlib
 matplotlib.use('Qt5Agg',force=True)
 import glob as glob 
