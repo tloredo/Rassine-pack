@@ -10,3 +10,5 @@ $ conda create --name eprv10 -c conda-forge -c defaults python=3.10 ipython jupy
 Currently the package requires linking to data in the `spectra_library` directory in the original Rassine project, which can be clone from here: [MichaelCretignier/Rassine_public: RASSINE is a code using alpha shape to normalise 1d spectra](https://github.com/MichaelCretignier/Rassine_public).
 
 This project's packaging is maintained using the `copier`-based LINCC Frameworks Python project template.  For information about the template see the [LINCC Frameworks Python project template documentation](https://lincc-ppt.readthedocs.io/en/latest/).
+
+Lorem ipsum.
