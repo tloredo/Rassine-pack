@@ -11,4 +11,3 @@ Currently the package requires linking to data in the `spectra_library` director
 
 This project's packaging is maintained using the `copier`-based LINCC Frameworks Python project template.  For information about the template see the [LINCC Frameworks Python project template documentation](https://lincc-ppt.readthedocs.io/en/latest/).
 
-Lorem ipsum.
