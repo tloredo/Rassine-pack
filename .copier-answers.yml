@@ -10,6 +10,6 @@ mypy_type_checking: none
 package_name: rassine
 preferred_linter: pylint
 project_license: MIT
-project_name: rassine
+project_name: rassine-pack
 use_gitlfs: disabled
 use_isort: true
